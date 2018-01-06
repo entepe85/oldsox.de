@@ -1,0 +1,10 @@
+# Build tools
+/node_modules
+/bower
+
+# Editor Configs
+/.idea/
+.vscode
+
+# Server configuration
+.htaccess

@@ -1,0 +1,52 @@
+.nav {
+    @include grid-container;
+    @include grid-collapse;
+    align-items: center;
+    background-color: $brand-light;
+    background-image: linear-gradient(to bottom, #ffd800, #fec100);
+    display: flex;
+    .scrolled & {
+        animation: slideInTop ($base-duration * 2) forwards;
+        position: fixed;
+        top: 0;
+        width: calc(100% + 40px);
+        z-index: 10;
+    }
+    &__logo {
+        @include grid-column(2);
+        height: auto;
+    }
+    &__menu {
+        @include grid-column(10);
+        text-align: right;
+        li {
+            display: inline-block;
+            font-size: modular-scale(1);
+            margin-right: 3rem;
+            a {
+                color: $dark-gray;
+                text-decoration: none;
+            }
+        }
+    }
+    @media (max-width: $medium-screen) {
+        &__logo {
+            @include grid-column(4);
+        }
+        &__menu {
+            @include grid-column(8);
+        }
+    }
+    @media (max-width: $small-screen) {
+        &__logo {
+            @include grid-column(5);
+        }
+        &__menu {
+            @include grid-column(7);
+            li {
+                font-size: modular-scale(0);
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}

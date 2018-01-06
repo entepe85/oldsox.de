@@ -1,0 +1,14 @@
+.content-section {
+    background-color: $brand-light;
+    margin-top: -8px;
+    padding: 3rem 1rem;
+    .content-wrap {
+        display: block;
+        margin: 0 auto;
+        max-width: calc(#{$container-width} + 2rem);
+        width: 100%;
+        ul {
+            @extend %default-ul;
+        }
+    }
+}

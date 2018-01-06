@@ -1,0 +1,372 @@
+/* line 4, /home/nils/public_html/oldsox.de/src/scss/base/_buttons.scss */
+button, [type='button'], [type='reset'], [type='submit'] {
+  appearance: none;
+  background-color: #1565c0;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 150ms ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 25, /home/nils/public_html/oldsox.de/src/scss/base/_buttons.scss */
+  button:hover, [type='button']:hover, [type='reset']:hover, [type='submit']:hover {
+    background-color: #11519a;
+    color: #fff; }
+  /* line 30, /home/nils/public_html/oldsox.de/src/scss/base/_buttons.scss */
+  button:focus, [type='button']:focus, [type='reset']:focus, [type='submit']:focus {
+    outline: 3px solid rgba(21, 101, 192, 0.6);
+    outline-offset: 2px; }
+  /* line 35, /home/nils/public_html/oldsox.de/src/scss/base/_buttons.scss */
+  button:disabled, [type='button']:disabled, [type='reset']:disabled, [type='submit']:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+    /* line 39, /home/nils/public_html/oldsox.de/src/scss/base/_buttons.scss */
+    button:disabled:hover, [type='button']:disabled:hover, [type='reset']:disabled:hover, [type='submit']:disabled:hover {
+      background-color: #1565c0; }
+
+/* line 4, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+fieldset {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 11, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+legend {
+  font-weight: 600;
+  margin-bottom: 0.375em;
+  padding: 0; }
+
+/* line 17, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+
+/* line 23, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+input,
+select,
+textarea {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-size: 16px; }
+
+/* line 31, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+[type='color'], [type='date'], [type='datetime'], [type='datetime-local'], [type='email'], [type='month'], [type='number'], [type='password'], [type='search'], [type='tel'], [type='text'], [type='time'], [type='url'], [type='week'], input:not([type]), textarea {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color 150ms ease;
+  width: 100%; }
+  /* line 43, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+  [type='color']:hover, [type='date']:hover, [type='datetime']:hover, [type='datetime-local']:hover, [type='email']:hover, [type='month']:hover, [type='number']:hover, [type='password']:hover, [type='search']:hover, [type='tel']:hover, [type='text']:hover, [type='time']:hover, [type='url']:hover, [type='week']:hover, input:not([type]):hover, textarea:hover {
+    border-color: #b1b1b1; }
+  /* line 47, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+  [type='color']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='email']:focus, [type='month']:focus, [type='number']:focus, [type='password']:focus, [type='search']:focus, [type='tel']:focus, [type='text']:focus, [type='time']:focus, [type='url']:focus, [type='week']:focus, input:not([type]):focus, textarea:focus {
+    border-color: #1565c0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(21, 101, 192, 0.7);
+    outline: none; }
+  /* line 53, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+  [type='color']:disabled, [type='date']:disabled, [type='datetime']:disabled, [type='datetime-local']:disabled, [type='email']:disabled, [type='month']:disabled, [type='number']:disabled, [type='password']:disabled, [type='search']:disabled, [type='tel']:disabled, [type='text']:disabled, [type='time']:disabled, [type='url']:disabled, [type='week']:disabled, input:not([type]):disabled, textarea:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed; }
+    /* line 57, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+    [type='color']:disabled:hover, [type='date']:disabled:hover, [type='datetime']:disabled:hover, [type='datetime-local']:disabled:hover, [type='email']:disabled:hover, [type='month']:disabled:hover, [type='number']:disabled:hover, [type='password']:disabled:hover, [type='search']:disabled:hover, [type='tel']:disabled:hover, [type='text']:disabled:hover, [type='time']:disabled:hover, [type='url']:disabled:hover, [type='week']:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover {
+      border: 1px solid #ddd; }
+  /* line 62, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+  [type='color']::placeholder, [type='date']::placeholder, [type='datetime']::placeholder, [type='datetime-local']::placeholder, [type='email']::placeholder, [type='month']::placeholder, [type='number']::placeholder, [type='password']::placeholder, [type='search']::placeholder, [type='tel']::placeholder, [type='text']::placeholder, [type='time']::placeholder, [type='url']::placeholder, [type='week']::placeholder, input:not([type])::placeholder, textarea::placeholder {
+    color: #858585; }
+
+/* line 67, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 71, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+[type="checkbox"],
+[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 77, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+[type="file"] {
+  margin-bottom: 0.75em;
+  width: 100%; }
+
+/* line 82, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+select {
+  margin-bottom: 0.75em;
+  width: 100%; }
+
+/* line 91, /home/nils/public_html/oldsox.de/src/scss/base/_forms.scss */
+[type="checkbox"]:focus,
+[type="radio"]:focus,
+[type="file"]:focus,
+select:focus {
+  outline: 3px solid rgba(21, 101, 192, 0.6);
+  outline-offset: 2px; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/base/_layout.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 5, /home/nils/public_html/oldsox.de/src/scss/base/_layout.scss */
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/* line 11, /home/nils/public_html/oldsox.de/src/scss/base/_layout.scss */
+html,
+body {
+  height: 100%; }
+
+/* line 16, /home/nils/public_html/oldsox.de/src/scss/base/_layout.scss */
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100vw; }
+  /* line 21, /home/nils/public_html/oldsox.de/src/scss/base/_layout.scss */
+  .scrolled body {
+    padding-top: 75px; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 8, /home/nils/public_html/oldsox.de/src/scss/base/_lists.scss */
+dl {
+  margin: 0; }
+
+/* line 12, /home/nils/public_html/oldsox.de/src/scss/base/_lists.scss */
+dt {
+  font-weight: 600;
+  margin: 0; }
+
+/* line 17, /home/nils/public_html/oldsox.de/src/scss/base/_lists.scss */
+dd {
+  margin: 0; }
+
+/* line 21, /home/nils/public_html/oldsox.de/src/scss/base/_lists.scss */
+.content-section .content-wrap ul {
+  list-style-type: disc;
+  padding-left: 20px; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/base/_media.scss */
+figure {
+  margin: 0; }
+
+/* line 5, /home/nils/public_html/oldsox.de/src/scss/base/_media.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  table-layout: fixed;
+  text-align: left;
+  width: 100%; }
+
+/* line 9, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+thead {
+  line-height: 1.2;
+  vertical-align: bottom; }
+
+/* line 14, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+tbody {
+  vertical-align: top; }
+
+/* line 18, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+tr {
+  border-bottom: 1px solid #ddd; }
+
+/* line 22, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+th {
+  font-weight: 600; }
+
+/* line 26, /home/nils/public_html/oldsox.de/src/scss/base/_tables.scss */
+th,
+td {
+  padding: 0.75em 0.75em 0.75em 0; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+html {
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-size: 100%;
+  line-height: 1.5; }
+
+/* line 8, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  font-size: 1.25em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 20, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+h1 {
+  font-size: 1.95312em; }
+
+/* line 24, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+h2 {
+  font-size: 1.5625em; }
+
+/* line 28, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+* + h2 {
+  margin-top: 1.5rem; }
+
+/* line 32, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 36, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+a {
+  color: #1565c0;
+  text-decoration-skip: ink;
+  transition: color 150ms ease; }
+  /* line 41, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+  a:hover {
+    color: #104c90; }
+  /* line 45, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+  a:focus {
+    outline: 3px solid rgba(21, 101, 192, 0.6);
+    outline-offset: 2px; }
+
+/* line 51, /home/nils/public_html/oldsox.de/src/scss/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(0); } }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+.nav {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: calc(100% + 40px);
+  align-items: center;
+  background-color: #ffcf00;
+  background-image: linear-gradient(to bottom, #ffd800, #fec100);
+  display: flex; }
+  /* line 26, /home/nils/public_html/oldsox.de/src/scss/neat/neat/mixins/_grid-container.scss */
+  .nav::after {
+    clear: both;
+    content: "";
+    display: block; }
+  /* line 8, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+  .scrolled .nav {
+    animation: slideInTop 300ms forwards;
+    position: fixed;
+    top: 0;
+    width: calc(100% + 40px);
+    z-index: 10; }
+  /* line 15, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+  .nav__logo {
+    width: calc(16.66667% - 23.33333px);
+    float: left;
+    margin-left: 20px;
+    height: auto; }
+  /* line 19, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+  .nav__menu {
+    width: calc(83.33333% - 36.66667px);
+    float: left;
+    margin-left: 20px;
+    text-align: right; }
+    /* line 22, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+    .nav__menu li {
+      display: inline-block;
+      font-size: 1.25em;
+      margin-right: 3rem; }
+      /* line 26, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+      .nav__menu li a {
+        color: #333;
+        text-decoration: none; }
+  @media (max-width: 900px) {
+    /* line 33, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+    .nav__logo {
+      width: calc(33.33333% - 26.66667px);
+      float: left;
+      margin-left: 20px; }
+    /* line 36, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+    .nav__menu {
+      width: calc(66.66667% - 33.33333px);
+      float: left;
+      margin-left: 20px; } }
+  @media (max-width: 600px) {
+    /* line 41, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+    .nav__logo {
+      width: calc(41.66667% - 28.33333px);
+      float: left;
+      margin-left: 20px; }
+    /* line 44, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+    .nav__menu {
+      width: calc(58.33333% - 31.66667px);
+      float: left;
+      margin-left: 20px; }
+      /* line 46, /home/nils/public_html/oldsox.de/src/scss/components/_nav.scss */
+      .nav__menu li {
+        font-size: 1em;
+        margin-right: 0.5rem; } }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/components/_embeds.scss */
+.embed-container {
+  height: 0;
+  max-width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  overflow: hidden; }
+  /* line 7, /home/nils/public_html/oldsox.de/src/scss/components/_embeds.scss */
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+
+/* line 1, /home/nils/public_html/oldsox.de/src/scss/components/_content.scss */
+.content-section {
+  background-color: #ffcf00;
+  margin-top: -8px;
+  padding: 3rem 1rem; }
+  /* line 5, /home/nils/public_html/oldsox.de/src/scss/components/_content.scss */
+  .content-section .content-wrap {
+    display: block;
+    margin: 0 auto;
+    max-width: calc(64rem + 2rem);
+    width: 100%; }
